@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title> Cohere NLP Usage </title>          
+            <link rel="stylesheet" href="/static/styles/home.css" />
+
+    </head>
+
+    <body>
+        <h1 class="App-Head"> This is Heading </h1>
+        <p> Yo, Let's frickin build this using Cohere </p>
+
+        <div class = "Input">
+            <input placeholder="Type Here">
+            {% for word in words %}
+            <p>{{word}}</p>
+            {% end for %}
+        </div>
+    </body>
+</html>
